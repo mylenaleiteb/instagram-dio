@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: verdana;
     font-size: 14px;
 }
 
@@ -52,7 +52,7 @@ body {
     flex-direction: column;
     background-color: #ffffff;
     width: 100%;
-    padding: 1.3rem 0;
+    padding: 15px;
     border: 1px solid lightgray;
 }
 
@@ -61,15 +61,17 @@ body {
 }
 
 .instagram-logo {
-    height: 3rem;
+    height: 6rem;
+    padding: 100px;
 }
 
 .profile-photo {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
+    border-radius: 35%;
     overflow: hidden;
+    margin-top: 5px;
 }
 
 .profile-photo img {
@@ -79,13 +81,15 @@ body {
 .instagram-login {
     background-color: #0095f6;
     color: #ffffff;
-    padding: 8px;
+    padding: 15px;
     border-radius: 4px;
+    margin: 15px;
 }
 
 .instagram-logout {
-    color: #0095f6;
+    color: blue;
     margin-top: 1rem;
+    text-decoration: underline;
 }
 
 .not-account {
@@ -94,6 +98,7 @@ body {
 
 .link-blue {
     color: #0095f6;
+    text-decoration: underline;
 }
 
 .get-the-app {
@@ -101,8 +106,9 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    padding: 1.3rem 0;
+    width: 30%;
+    padding: 0rem;
+    color: #0095f6;
 }
 
 .download {
@@ -120,11 +126,13 @@ body {
 }
 
 .app-download:nth-child(1) {
-    background-image: url('https://image.flaticon.com/icons/svg/831/831276.svg');
+    background-image: url('https://lh3.googleusercontent.com/proxy/unXBYPtIfKdvK9AByHtravpgGz5iycbG1MdiPJMv3jzCf6J36E3_GFpLPaB3ou2L8CadH60__7MIeAQDplYuv-kBsgEYR4yb4QxqU0zG0nUxG5NQFRaj-a4nIqHJ8Q');
+    margin: auto;
 }
 
 .app-download:nth-child(2) {
-    background-image: url('https://www.pinclipart.com/picdir/middle/202-2024262_app-store-google-play-logo-vector-vector-and.png');
+    background-image: url('https://cdn.iconscout.com/icon/free/png-256/google-play-6-574511.png');
+    margin: auto;
 }
 
 /* media queries */
