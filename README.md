@@ -1,4 +1,4 @@
-# Recriação da página do Instagram no bootcamp da DIO HTML Developer e desse Lab. 🚀
+## Recriação da página do Instagram no bootcamp da DIO HTML Developer e desse Lab. 🚀
 
 ### Fiz algumas alterações como mudar os icons e adcicionar minha foto de perfil, modificar fontes e decoração dos elementos, como por exemplo dar destaques e alterar espaçamentos. 
 
