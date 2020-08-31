@@ -120,11 +120,11 @@ body {
 }
 
 .app-download:nth-child(1) {
-    background-image: url('./img/apple-button.png');
+    background-image: url('https://image.flaticon.com/icons/svg/831/831276.svg');
 }
 
 .app-download:nth-child(2) {
-    background-image: url('./img/googleplay-button.png');
+    background-image: url('https://www.pinclipart.com/picdir/middle/202-2024262_app-store-google-play-logo-vector-vector-and.png');
 }
 
 /* media queries */
